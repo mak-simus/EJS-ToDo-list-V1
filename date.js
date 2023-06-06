@@ -13,7 +13,7 @@ exports.getDate = function(){
         month:"long"
     };
   
-    return today.toLocaleDateString("ja-JP", options);
+    return today.toLocaleDateString("ja-JP", options); // use ("en-US") for English 
 
    
 
@@ -32,7 +32,7 @@ exports.getDay = function(){
         
     };
   
-    return today.toLocaleDateString("ja-JP", options);
+    return today.toLocaleDateString("ja-JP", options); // use ("en-US") for English 
 
     
 
